@@ -1,0 +1,25 @@
+# POST http://localhost:9000/users
+# Content-Type: application/json
+
+# {
+#     "username": "micky",
+#     "password": "password"
+# }
+
+
+POST http://localhost:9000/users/AddUser
+Content-Type: application/json
+
+{
+    "username": "miranda",
+    "password": "ice",
+    "roletype": "Member"
+}
+
+# POST http://localhost:3000/users/login
+# Content-Type: application/json
+
+# {
+#     "username": "jack",
+#     "password": "tattoo"
+# }
